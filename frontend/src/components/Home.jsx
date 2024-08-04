@@ -3,7 +3,7 @@ import img1 from "../assets/full_stack.jpeg";
 import img2 from "../assets/sql.png";
 import img3 from "../assets/java.jpeg";
 import img4 from "../assets/cpp.jpeg";
-import img5 from "../assets/services_cpp.jpg";
+import img5 from "../assets/11.jpg";
 import img6 from "../assets/services_full.jpg";
 import img7 from "../assets/node.jpg";
 import { Carousel } from "react-responsive-carousel";
