@@ -6,14 +6,12 @@
 // / Tablet (max-width: 900px)
 
 
-
-
-
 // Phone (max-width: 600px)
 @media (max-width: 600px) {
 
   nav{
     margin:4px;
+    margin-left: 1.5rem;
     h1{
       display: none;
     }
@@ -67,13 +65,15 @@
 
   .home3 {
     div {
-      width: 90%;
+      width: 100%;
+      font-size: 1rem;
       // padding: 1rem;
       h1 {
-        font-size: 1rem;
+        font-size: 2rem;
       }
       p {
-        font-size: 0.4rem;
+        text-wrap: wrap;
+        font-size: 1rem;
       }
     }
   }
@@ -127,14 +127,24 @@
 // Tablet (max-width: 900px)
 @media (max-width: 900px) {
   nav{
-    margin:4px;
+
+    position: relative;
+    // margin:0.4rem;
+    text-decoration:none;
+    left: 2.4rem;
+    font-size: 0.9rem;
     
-    main{
-      HashLink{
-        font-size: 0.9rem;
-      }
-     
+    // margin-left: 1.5rem;
+    h1{
+      // display: none;
     }
+    // main{
+    //   HashLink{
+    //     left: 1.5rem;
+    //     font-size: 0.6rem;
+    //   }
+     
+    // }
   }
 
 
@@ -180,13 +190,19 @@
 
   .home3 {
     div {
-      width: 80%;
-      padding: 1.5rem;
+     
+      width: 100%;
+      padding: 0.1rem;
       h1 {
-        font-size: 0.9rem;
+        position: relative;
+        // margin-top: 0.2rem;
+        top: 2.5rem;
+        font-size: 1.3rem;
       }
       p {
-        font-size: 0.3rem;
+        // flex-wrap: wrap;
+        font-size: 0.6rem;
+        
       }
     }
   }
@@ -236,117 +252,4 @@
     }
   }
 }
-
-// // / Tablet (max-width: 900px)
-// @media (max-width: 1000px) {
-
-//   nav{
-//     margin:4px;
-   
-//     main{
-//       HashLink{
-//         font-size: 0.9rem;
-//       }
-     
-//     }
-//   }
-
-//   .home-container {
-//     main {
-//       padding: 1.5rem;
-//       filter: blur(2px);
-//     }
-//   }
-
-//   .text-container {
-//     padding: 1.5rem;
-//     h1 {
-//       font-size: 3.5rem;
-//     }
-//     p {
-//       font-size: 1.2rem;
-//     }
-//   }
-
-//   .img-container:empty {
-//       display: none;
-//     }
-  
-
-//   .skills-container {
-//     height: auto;
-//     h1 {
-//       margin: 0 auto;
-//       font-size: 2.5rem;
-//     }
-//   }
-
-//   .skills {
-//     flex-direction: column;
-//     align-items: center;
-//     .full_stack, .cpp, .java, .sql {
-//       width: 80%;
-//       height: auto;
-//       margin: 1rem 0;
-//     }
-//   }
-
-//   .home3 {
-//     div {
-//       width: 80%;
-//       padding: 1.5rem;
-//       // h1 {
-//       //   font-size: 1.5rem;
-//       // }
-//       // p {
-//       //   font-size: 0.7rem;
-//       // }
-//     }
-//   }
-
-//   .contact {
-//     main {
-//       width: 80%;
-//       padding: 2rem;
-//       form {
-//         margin: 3rem 0;
-//         div {
-//           width: 100%;
-//           label {
-//             font-size: 1.1rem;
-//           }
-//           input {
-//             font-size: 1.1rem;
-//           }
-//         }
-//         button {
-//           width: 150px;
-//           font-size: 0.9rem;
-//         }
-//       }
-//     }
-//   }
-
-//   footer {
-//     grid-template-columns: 1fr;
-//     padding: 1.5rem;
-//     div {
-//       align-items: center;
-//       h1 {
-//         font-size: 1.8rem;
-//       }
-//       p {
-//         font-size: 1.1rem;
-//       }
-//       h5 {
-//         font-size: 1.4rem;
-//       }
-//       div {
-//         a {
-//           font-size: 0.9rem;
-//         }
-//       }
-//     }
-//   }
-// }
 
